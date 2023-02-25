@@ -1,0 +1,46 @@
+html{
+    background: url('./tunes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .key{
+    width: 5rem;
+    color: goldenrod;
+    border: .2rem solid black;
+    margin: .5rem;
+    border-radius: .5rem;
+    padding: .4rem;
+    font-size: 15px;
+    text-align: center;
+    background: rgba(239, 239, 239, 0.4);
+    text-shadow: 1rem whitesmoke;
+    transition: all .05s ease;
+  }
+  kbd{
+    display: block;
+    font-size: 25px;
+  }
+   .playing {
+    transform: scale(1.1);
+    border-color: #fff;
+    box-shadow: 0 0 1rem #fff;
+  }
+  /* .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }  */
